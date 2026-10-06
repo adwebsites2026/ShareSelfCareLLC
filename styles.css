@@ -274,3 +274,14 @@ p { margin: 0 0 1em; }
   .prep { padding: 24px 20px; }
   .prep ul { grid-template-columns: 1fr; }
 }
+
+/* Intake page */
+.intake-page { padding-top: 60px; min-height: 70vh; }
+.back-link {
+  display: inline-block; margin-bottom: 28px; text-decoration: none;
+  font-size: .8rem; letter-spacing: .14em; text-transform: uppercase; color: var(--muted);
+}
+.back-link:hover { color: var(--taupe-dark); }
+@media (max-width: 860px) { .intake-page { padding-top: 40px; } }
+.btn--light { background: var(--cream); color: var(--taupe-dark); border-color: var(--cream); margin-top: 10px; }
+.btn--light:hover { background: #fff; color: var(--taupe-dark); }

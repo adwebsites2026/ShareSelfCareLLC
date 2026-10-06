@@ -10,7 +10,9 @@ Static one-page site (HTML/CSS/JS, no build step).
 5. Optional custom domain: enter it under Settings → Pages → Custom domain, then add the DNS records GitHub shows.
 
 ## Sections
-Crisis bar · Nav · Hero · About · Services · How It Works · NC Medicaid Eligibility · Online Intake (prep checklist, crisis note, JotForm embed, printable PDF) · Testimonials · FAQ · Contact · Footer
+**index.html**: Crisis bar · Nav · Hero · About · Services · How It Works · NC Medicaid Eligibility · Testimonials · FAQ · Contact · Footer
+
+**intake.html**: Prep checklist · Crisis note · JotForm intake · Printable PDF link. Every "Start Intake" button links here.
 
 ## Before launch
 Search `index.html` for `TODO`:
