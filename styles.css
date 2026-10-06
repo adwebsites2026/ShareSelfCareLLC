@@ -251,3 +251,26 @@ p { margin: 0 0 1em; }
   .brand__text { font-size: .92rem; letter-spacing: .16em; }
   .hero__actions .btn { width: 100%; text-align: center; }
 }
+
+/* Intake prep + crisis note */
+.prep {
+  background: var(--cream); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 32px 34px; margin-bottom: 20px;
+}
+.prep h3 { font-size: 1.35rem; margin-bottom: 16px; }
+.prep ul { list-style: none; padding: 0; margin: 0 0 18px; display: grid; grid-template-columns: 1fr 1fr; gap: 10px 28px; }
+.prep li { position: relative; padding-left: 26px; font-size: .96rem; }
+.prep li::before {
+  content: ""; position: absolute; left: 2px; top: 8px; width: 12px; height: 6px;
+  border-left: 1.5px solid var(--sage); border-bottom: 1.5px solid var(--sage); transform: rotate(-45deg);
+}
+.prep__note { font-size: .9rem; color: var(--muted); margin: 0; }
+.crisis-note {
+  border-left: 3px solid var(--taupe); background: var(--sage-soft);
+  padding: 16px 20px; border-radius: 0 10px 10px 0; font-size: .93rem; margin-bottom: 28px;
+}
+.crisis-note a { font-weight: 500; }
+@media (max-width: 600px) {
+  .prep { padding: 24px 20px; }
+  .prep ul { grid-template-columns: 1fr; }
+}
